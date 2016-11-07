@@ -12,6 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var hornSound: AVAudioPlayer?
+    var hornSoundLong: AVAudioPlayer?
     
     func loadSound(name: String) -> AVAudioPlayer? {
         
@@ -49,10 +50,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.hornSound = loadSound(name: "hornSound")
+        self.hornSoundLong = loadSound(name: "hornSoundLong")
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         self.hornSound?.play()
+    }
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        //Do nothing
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        self.hornSoundLong?.play()
+    }
+    
+    override func motionCancelled(_ motion: UIEventSubtype, with event: UIEvent?) {
+        //Do nothing
     }
     
 }
