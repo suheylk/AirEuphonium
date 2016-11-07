@@ -12,6 +12,8 @@
 		B96A75D41DD09EA200CF2706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A75D21DD09EA200CF2706 /* Main.storyboard */; };
 		B96A75D61DD09EA200CF2706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A75D51DD09EA200CF2706 /* Assets.xcassets */; };
 		B96A75D91DD09EA200CF2706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A75D71DD09EA200CF2706 /* LaunchScreen.storyboard */; };
+		B96A75E21DD0AAB800CF2706 /* hornSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B96A75E01DD0AAB800CF2706 /* hornSound.m4a */; };
+		B96A75E31DD0AAB800CF2706 /* hornSoundLong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B96A75E11DD0AAB800CF2706 /* hornSoundLong.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B96A75D51DD09EA200CF2706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96A75D81DD09EA200CF2706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96A75DA1DD09EA200CF2706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96A75E01DD0AAB800CF2706 /* hornSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hornSound.m4a; sourceTree = "<group>"; };
+		B96A75E11DD0AAB800CF2706 /* hornSoundLong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hornSoundLong.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		B96A75C21DD09EA100CF2706 = {
 			isa = PBXGroup;
 			children = (
+				B96A75E01DD0AAB800CF2706 /* hornSound.m4a */,
+				B96A75E11DD0AAB800CF2706 /* hornSoundLong.m4a */,
 				B96A75CD1DD09EA200CF2706 /* AirEuphoniumSuheylKeskin */,
 				B96A75CC1DD09EA200CF2706 /* Products */,
 			);
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96A75D91DD09EA200CF2706 /* LaunchScreen.storyboard in Resources */,
+				B96A75E21DD0AAB800CF2706 /* hornSound.m4a in Resources */,
 				B96A75D61DD09EA200CF2706 /* Assets.xcassets in Resources */,
+				B96A75E31DD0AAB800CF2706 /* hornSoundLong.m4a in Resources */,
 				B96A75D41DD09EA200CF2706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
